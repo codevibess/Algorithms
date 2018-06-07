@@ -24,3 +24,17 @@ function manualReverseString(str) {
 }
 manualReverseString("It`s reversed String");
 
+// Manual
+
+function reverse(str) {
+    let reversed = '';
+  
+    for (let character of str) {
+      reversed = character + reversed;
+      
+    }
+
+    return reversed;
+  }
+  reverse("I'm a little tea pot");
+
